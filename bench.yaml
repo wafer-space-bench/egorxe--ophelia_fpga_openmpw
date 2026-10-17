@@ -1,0 +1,26 @@
+source:
+  url: https://github.com/egorxe/ophelia_fpga_openmpw
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: Apache-2.0
+  upstream_default_branch: main
+tapeouts:
+- org: google
+  run: gf180mcu-mpw0
+  slot: 45D6
+  project: Ophelia eFPGA
+  size: caravel-upw
+  kind: digital + eFuse
+  commit: 4b40797471
+  commit_source: designer commit from Efabless tapeout/logs/git.info
+  tag: google/gf180mcu-mpw0/45D6
+  branch: tapeout/google/gf180mcu-mpw0/45D6
+  page: https://wafer.space/google-gf180mcu-mpw0/
+generated: '2026-10-17T23:31:29Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/google/gf180mcu-mpw0/45D6
+- upstream/main
